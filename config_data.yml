@@ -43,22 +43,22 @@ inputs:
     # This describes the data files, relative to the "src_dir" indicated above.
     path_pattern: data/*-*.csv
   - class: InputSdmxMl_Structure
-     source: https://lr.sdmx.afdb.org/ns-ws/rest/data/LR1,DF_LIB_TEST_1,1.21/A............../ALL/?detail=full&dimensionAtObservation=TIME_PERIOD
-     dsd: https://lr.sdmx.afdb.org/ns-ws/rest/dataflow/LR1/DF_LIB_TEST_1/1.21/?detail=Full&references=Descendants
-     dimension_map:
-       REF_AREA|143: ''
-     drop_dimensions:
-       - FREQ
-       - REPORTING_TYPE
-       - NATURE
-       - TIME_PERIOD
-     drop_singleton_dimensions: false
-     import_series_attributes: true
-     import_observation_attributes: true
-     import_codes: true
-     request_params: 
-       headers: 
-         User-Agent: Open-SDG-Build-1 
+    source: https://lr.sdmx.afdb.org/ns-ws/rest/data/LR1,DF_LIB_TEST_1,1.21/A............../ALL/?detail=full&dimensionAtObservation=TIME_PERIOD
+    dsd: https://lr.sdmx.afdb.org/ns-ws/rest/dataflow/LR1/DF_LIB_TEST_1/1.21/?detail=Full&references=Descendants
+    dimension_map:
+      REF_AREA|143: ''
+    drop_dimensions:
+      - FREQ
+      - REPORTING_TYPE
+      - NATURE
+      - TIME_PERIOD
+    drop_singleton_dimensions: false
+    import_series_attributes: true
+    import_observation_attributes: true
+    import_codes: true
+    request_params: 
+      headers: 
+        User-Agent: Open-SDG-Build-1 
   - class: InputWordMeta
     path_pattern: meta/*-*.docm
   - class: InputYamlMeta

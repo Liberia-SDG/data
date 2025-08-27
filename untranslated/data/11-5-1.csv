@@ -1,1 +1,7 @@
-Year,Value
+Year,OBS_STATUS,UNIT_MULT,SOURCE_DETAIL,SERIES,REF_AREA,UNIT_MEASURE,TIME_DETAIL,Value
+2011,A,0,United Nations Office for Disaster Risk Reduction (2019),VC_DSR_MMHN,,NUMBER,2016,2
+2012,A,0,United Nations Office for Disaster Risk Reduction (2019),VC_DSR_MMHN,,NUMBER,2016,0
+2013,A,0,United Nations Office for Disaster Risk Reduction (2019),VC_DSR_MMHN,,NUMBER,2016,0
+2014,A,0,United Nations Office for Disaster Risk Reduction (2019),VC_DSR_MMHN,,NUMBER,2016,0
+2015,A,0,United Nations Office for Disaster Risk Reduction (2019),VC_DSR_MMHN,,NUMBER,2016,0
+2016,A,0,United Nations Office for Disaster Risk Reduction (2019),VC_DSR_MMHN,,NUMBER,2016,48
